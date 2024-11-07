@@ -1,0 +1,3 @@
+def maximum (a,b):
+    print("Найбільше число: ",max(a,b))
+maximum(input("Введіть перше число: "), input("Введіть друге число: "))
