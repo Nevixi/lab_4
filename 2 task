@@ -1,0 +1,9 @@
+import random
+
+l = list()
+for i in range(0,11):
+    l.append(random.randint(1,100))
+mult = 1 
+for i in l:
+    mult *= i
+print(l, "добуток: ", mult)
